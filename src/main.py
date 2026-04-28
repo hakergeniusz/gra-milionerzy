@@ -1,5 +1,5 @@
-from core.functions import clear_screen, pull_question
 from core.config import REWARDS
+from core.functions import clear_screen, pull_question
 
 # Welcome the user
 clear_screen()

@@ -1,0 +1,686 @@
+{
+  "poziom_1": [
+    {
+      "pytanie": "Który z wymienionych języków programowania jest znany jako 'język skryptowy' dla stron internetowych?",
+      "opcje": {
+        "A": "Java",
+        "B": "C++",
+        "C": "JavaScript",
+        "D": "Python"
+      },
+      "poprawna": "C",
+      "poziom": 1
+    },
+    {
+      "pytanie": "Jak nazywamy podstawową jednostkę informacji w systemie binarnym?",
+      "opcje": {
+        "A": "Bajt",
+        "B": "Bit",
+        "C": "Kilobajt",
+        "D": "Megabajt"
+      },
+      "poprawna": "B",
+      "poziom": 1
+    },
+    {
+      "pytanie": "Który z wymienionych elementów jest urządzeniem wejściowym?",
+      "opcje": {
+        "A": "Monitor",
+        "B": "Drukarka",
+        "C": "Głośnik",
+        "D": "Mysz"
+      },
+      "poprawna": "D",
+      "poziom": 1
+    },
+    {
+      "pytanie": "Co oznacza skrót CPU w kontekście komputera?",
+      "opcje": {
+        "A": "Central Processing Unit",
+        "B": "Computer Personal Unit",
+        "C": "Core Programming Utility",
+        "D": "Control Power Unit"
+      },
+      "poprawna": "A",
+      "poziom": 1
+    },
+    {
+      "pytanie": "Który z tych znaków jest używany w większości języków programowania do zakończenia instrukcji?",
+      "opcje": {
+        "A": ",",
+        "B": ":",
+        "C": ";",
+        "D": "."
+      },
+      "poprawna": "C",
+      "poziom": 1
+    }
+  ],
+  "poziom_2": [
+    {
+      "pytanie": "W jakim systemie liczbowym operują procesory?",
+      "opcje": {
+        "A": "Dziesiętnym",
+        "B": "Szesnastkowym",
+        "C": "Ósemkowym",
+        "D": "Dwójkowym"
+      },
+      "poprawna": "D",
+      "poziom": 2
+    },
+    {
+      "pytanie": "Który z wymienionych języków nie jest kompilowany?",
+      "opcje": {
+        "A": "C",
+        "B": "C++",
+        "C": "Python",
+        "D": "Rust"
+      },
+      "poprawna": "C",
+      "poziom": 2
+    },
+    {
+      "pytanie": "Co to jest 'RAM'?",
+      "opcje": {
+        "A": "Pamięć stała",
+        "B": "Pamięć operacyjna",
+        "C": "Pamięć graficzna",
+        "D": "Procesor"
+      },
+      "poprawna": "B",
+      "poziom": 2
+    },
+    {
+      "pytanie": "Który z wymienionych symboli jest znakiem diakrytycznym?",
+      "opcje": {
+        "A": "a",
+        "B": "ą",
+        "C": "b",
+        "D": "c"
+      },
+      "poprawna": "B",
+      "poziom": 2
+    },
+    {
+      "pytanie": "Jak nazywamy strukturę danych typu LIFO (Last In, First Out)?",
+      "opcje": {
+        "A": "Kolejka",
+        "B": "Drzewo",
+        "C": "Stos",
+        "D": "Tablica"
+      },
+      "poprawna": "C",
+      "poziom": 2
+    }
+  ],
+  "poziom_3": [
+    {
+      "pytanie": "Który z tych języków programowania został stworzony przez Google?",
+      "opcje": {
+        "A": "Swift",
+        "B": "Go",
+        "C": "Ruby",
+        "D": "PHP"
+      },
+      "poprawna": "B",
+      "poziom": 3
+    },
+    {
+      "pytanie": "Która firma wyprodukowała pierwszy mikroprocesor komercyjny?",
+      "opcje": {
+        "A": "AMD",
+        "B": "Intel",
+        "C": "IBM",
+        "D": "Motorola"
+      },
+      "poprawna": "B",
+      "poziom": 3
+    },
+    {
+      "pytanie": "Co robi operator '==' w większości języków programowania?",
+      "opcje": {
+        "A": "Przypisuje wartość",
+        "B": "Porównuje wartości",
+        "C": "Dodaje wartości",
+        "D": "Mnoży wartości"
+      },
+      "poprawna": "B",
+      "poziom": 3
+    },
+    {
+      "pytanie": "Jak nazywamy proces usuwania błędów z programu?",
+      "opcje": {
+        "A": "Kompilacja",
+        "B": "Debugowanie",
+        "C": "Optymalizacja",
+        "D": "Linkowanie"
+      },
+      "poprawna": "B",
+      "poziom": 3
+    },
+    {
+      "pytanie": "Które z wymienionych nie jest urządzeniem wejścia/wyjścia?",
+      "opcje": {
+        "A": "Ekran dotykowy",
+        "B": "Karta sieciowa",
+        "C": "Rejestr procesora",
+        "D": "Modem"
+      },
+      "poprawna": "C",
+      "poziom": 3
+    }
+  ],
+  "poziom_4": [
+    {
+      "pytanie": "Ile bitów ma jeden bajt?",
+      "opcje": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "32"
+      },
+      "poprawna": "B",
+      "poziom": 4
+    },
+    {
+      "pytanie": "Który algorytm sortowania jest zazwyczaj najszybszy?",
+      "opcje": {
+        "A": "Sortowanie bąbelkowe",
+        "B": "Sortowanie przez wstawianie",
+        "C": "Quicksort",
+        "D": "Sortowanie przez wybieranie"
+      },
+      "poprawna": "C",
+      "poziom": 4
+    },
+    {
+      "pytanie": "Co oznacza skrót 'SQL'?",
+      "opcje": {
+        "A": "Simple Query Language",
+        "B": "Structured Query Language",
+        "C": "System Query Logic",
+        "D": "Standard Question Language"
+      },
+      "poprawna": "B",
+      "poziom": 4
+    },
+    {
+      "pytanie": "Kto jest uznawany za pierwszą programistkę w historii?",
+      "opcje": {
+        "A": "Grace Hopper",
+        "B": "Ada Lovelace",
+        "C": "Margaret Hamilton",
+        "D": "Hedy Lamarr"
+      },
+      "poprawna": "B",
+      "poziom": 4
+    },
+    {
+      "pytanie": "Jak nazywamy kod, który jest bezpośrednio wykonywany przez procesor?",
+      "opcje": {
+        "A": "Kod źródłowy",
+        "B": "Kod maszynowy",
+        "C": "Kod pośredni",
+        "D": "Bajtkod"
+      },
+      "poprawna": "B",
+      "poziom": 4
+    }
+  ],
+  "poziom_5": [
+    {
+      "pytanie": "Która operacja logiczna zwraca 1 tylko wtedy, gdy oba argumenty to 1?",
+      "opcje": {
+        "A": "OR",
+        "B": "NOT",
+        "C": "AND",
+        "D": "XOR"
+      },
+      "poprawna": "C",
+      "poziom": 5
+    },
+    {
+      "pytanie": "W którym roku zaprezentowano język programowania C?",
+      "opcje": {
+        "A": "1960",
+        "B": "1972",
+        "C": "1980",
+        "D": "1991"
+      },
+      "poprawna": "B",
+      "poziom": 5
+    },
+    {
+      "pytanie": "Co to jest 'garbage collector'?",
+      "opcje": {
+        "A": "Narzędzie do czyszczenia dysku",
+        "B": "Mechanizm zarządzania pamięcią",
+        "C": "Program antywirusowy",
+        "D": "Edytor kodu"
+      },
+      "poprawna": "B",
+      "poziom": 5
+    },
+    {
+      "pytanie": "Co to jest 'Big O notation' w algorytmach?",
+      "opcje": {
+        "A": "Opisuje złożoność obliczeniową",
+        "B": "Opisuje rozmiar pamięci",
+        "C": "Opisuje szybkość sieci",
+        "D": "Opisuje wersję algorytmu"
+      },
+      "poprawna": "A",
+      "poziom": 5
+    },
+    {
+      "pytanie": "Jaki jest główny cel protokołu HTTP?",
+      "opcje": {
+        "A": "Przesyłanie plików",
+        "B": "Przesyłanie dokumentów hipertekstowych",
+        "C": "Zarządzanie sesjami użytkownika",
+        "D": "Weryfikacja tożsamości"
+      },
+      "poprawna": "B",
+      "poziom": 5
+    }
+  ],
+  "poziom_6": [
+    {
+      "pytanie": "Co oznacza 'IDE'?",
+      "opcje": {
+        "A": "Integrated Development Environment",
+        "B": "Internal Data Engine",
+        "C": "International Data Exchange",
+        "D": "Input Device Entry"
+      },
+      "poprawna": "A",
+      "poziom": 6
+    },
+    {
+      "pytanie": "W którym języku programowania napisanym przez Bjarne Stroustrupa dodano klasy do C?",
+      "opcje": {
+        "A": "Java",
+        "B": "C#",
+        "C": "C++",
+        "D": "Objective-C"
+      },
+      "poprawna": "C",
+      "poziom": 6
+    },
+    {
+      "pytanie": "Która struktura danych jest oparta na zasadzie FIFO (First In, First Out)?",
+      "opcje": {
+        "A": "Stos",
+        "B": "Kolejka",
+        "C": "Drzewo binarne",
+        "D": "Lista jednokierunkowa"
+      },
+      "poprawna": "B",
+      "poziom": 6
+    },
+    {
+      "pytanie": "Co oznacza termin 'podatność typu buffer overflow'?",
+      "opcje": {
+        "A": "Błąd w obliczeniach matematycznych",
+        "B": "Przepełnienie bufora pamięci",
+        "C": "Błąd w składni języka",
+        "D": "Zbyt mała prędkość procesora"
+      },
+      "poprawna": "B",
+      "poziom": 6
+    },
+    {
+      "pytanie": "Która technologia zapisu danych wykorzystuje światło lasera?",
+      "opcje": {
+        "A": "Dysk HDD",
+        "B": "Dysk SSD",
+        "C": "Płyta CD/DVD",
+        "D": "Taśma magnetyczna"
+      },
+      "poprawna": "C",
+      "poziom": 6
+    }
+  ],
+  "poziom_7": [
+    {
+      "pytanie": "Co jest podstawowym elementem logiki w architekturze komputera?",
+      "opcje": {
+        "A": "Bramka logiczna",
+        "B": "Rejestr",
+        "C": "Pamięć Cache",
+        "D": "Kontroler"
+      },
+      "poprawna": "A",
+      "poziom": 7
+    },
+    {
+      "pytanie": "Jaki jest wynik operacji XOR dla 1 i 0?",
+      "opcje": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "Błąd"
+      },
+      "poprawna": "B",
+      "poziom": 7
+    },
+    {
+      "pytanie": "Który z tych języków jest językiem funkcyjnym?",
+      "opcje": {
+        "A": "Haskell",
+        "B": "Java",
+        "C": "C",
+        "D": "PHP"
+      },
+      "poprawna": "A",
+      "poziom": 7
+    },
+    {
+      "pytanie": "Jak nazywa się model przetwarzania danych w rozproszonych systemach (Google)?",
+      "opcje": {
+        "A": "Cloud Computing",
+        "B": "MapReduce",
+        "C": "Client-Server",
+        "D": "P2P"
+      },
+      "poprawna": "B",
+      "poziom": 7
+    },
+    {
+      "pytanie": "Co jest niezbędne do działania wirtualizacji?",
+      "opcje": {
+        "A": "Hypervisor",
+        "B": "System Windows",
+        "C": "Dysk SSD",
+        "D": "Karta graficzna"
+      },
+      "poprawna": "A",
+      "poziom": 7
+    }
+  ],
+  "poziom_8": [
+    {
+      "pytanie": "Czym jest Unicode?",
+      "opcje": {
+        "A": "Universal Coding System",
+        "B": "Universal Character Set",
+        "C": "Unique Code Identifier",
+        "D": "United Computer Data"
+      },
+      "poprawna": "B",
+      "poziom": 8
+    },
+    {
+      "pytanie": "Jak nazywamy proces tłumaczenia języka wysokiego poziomu na maszynowy?",
+      "opcje": {
+        "A": "Interpretacja",
+        "B": "Kompilacja",
+        "C": "Linkowanie",
+        "D": "Skryptowanie"
+      },
+      "poprawna": "B",
+      "poziom": 8
+    },
+    {
+      "pytanie": "Jaki był pierwszy w pełni elektroniczny komputer ogólnego przeznaczenia?",
+      "opcje": {
+        "A": "ENIAC",
+        "B": "IBM PC",
+        "C": "Altair 8800",
+        "D": "Apple I"
+      },
+      "poprawna": "A",
+      "poziom": 8
+    },
+    {
+      "pytanie": "Która metoda szyfrowania jest symetryczna?",
+      "opcje": {
+        "A": "RSA",
+        "B": "AES",
+        "C": "ECC",
+        "D": "Diffie-Hellman"
+      },
+      "poprawna": "B",
+      "poziom": 8
+    },
+    {
+      "pytanie": "Co to jest 'deadlock' w systemach operacyjnych?",
+      "opcje": {
+        "A": "Zablokowanie systemu",
+        "B": "Zakleszczenie procesów",
+        "C": "Awaria zasilania",
+        "D": "Błąd pamięci"
+      },
+      "poprawna": "B",
+      "poziom": 8
+    }
+  ],
+  "poziom_9": [
+    {
+      "pytanie": "Czym jest 'API'?",
+      "opcje": {
+        "A": "Application Programming Interface",
+        "B": "Application Process Index",
+        "C": "Advanced Programming Integration",
+        "D": "Applied Protocol Interface"
+      },
+      "poprawna": "A",
+      "poziom": 9
+    },
+    {
+      "pytanie": "Jaki znak używany jest w C++ do wskazania adresu zmiennej?",
+      "opcje": {
+        "A": "*",
+        "B": "&",
+        "C": "->",
+        "D": "::"
+      },
+      "poprawna": "B",
+      "poziom": 9
+    },
+    {
+      "pytanie": "Co oznacza 'CSS' w tworzeniu stron?",
+      "opcje": {
+        "A": "Computer Style Sheets",
+        "B": "Cascading Style Sheets",
+        "C": "Creative Style System",
+        "D": "Colorful Style Sheets"
+      },
+      "poprawna": "B",
+      "poziom": 9
+    },
+    {
+      "pytanie": "Jaki algorytm szyfrowania używa klucza publicznego i prywatnego?",
+      "opcje": {
+        "A": "AES",
+        "B": "DES",
+        "C": "RSA",
+        "D": "Blowfish"
+      },
+      "poprawna": "C",
+      "poziom": 9
+    },
+    {
+      "pytanie": "Co jest cechą charakterystyczną języka Rust?",
+      "opcje": {
+        "A": "Automatyczne odśmiecanie",
+        "B": "Bezpieczeństwo pamięci bez garbage collectora",
+        "C": "Interpretacja w czasie rzeczywistym",
+        "D": "Brak typowania zmiennych"
+      },
+      "poprawna": "B",
+      "poziom": 9
+    }
+  ],
+  "poziom_10": [
+    {
+      "pytanie": "Co oznacza skrót DNS?",
+      "opcje": {
+        "A": "Data Network System",
+        "B": "Domain Name System",
+        "C": "Digital Name Server",
+        "D": "Dynamic Network Service"
+      },
+      "poprawna": "B",
+      "poziom": 10
+    },
+    {
+      "pytanie": "Jaka jest złożoność czasowa wyszukiwania binarnego?",
+      "opcje": {
+        "A": "O(n)",
+        "B": "O(log n)",
+        "C": "O(n^2)",
+        "D": "O(1)"
+      },
+      "poprawna": "B",
+      "poziom": 10
+    },
+    {
+      "pytanie": "Co to jest 'kernel' systemu operacyjnego?",
+      "opcje": {
+        "A": "Interfejs użytkownika",
+        "B": "Jądro systemu",
+        "C": "Sterownik dysku",
+        "D": "Powłoka tekstowa"
+      },
+      "poprawna": "B",
+      "poziom": 10
+    },
+    {
+      "pytanie": "W którym roku stworzono język Python?",
+      "opcje": {
+        "A": "1980",
+        "B": "1991",
+        "C": "1995",
+        "D": "2000"
+      },
+      "poprawna": "B",
+      "poziom": 10
+    },
+    {
+      "pytanie": "Jak nazywamy zmienną, która nie zmienia swojej wartości w trakcie działania programu?",
+      "opcje": {
+        "A": "Stała",
+        "B": "Wskaźnik",
+        "C": "Referencja",
+        "D": "Obiekt"
+      },
+      "poprawna": "A",
+      "poziom": 10
+    }
+  ],
+  "poziom_11": [
+    {
+      "pytanie": "Czym w informatyce jest 'UTF-8'?",
+      "opcje": {
+        "A": "Uniwersalny format tekstowy 8-bitowy",
+        "B": "Standard kodowania znaków",
+        "C": "Protokół przesyłania plików",
+        "D": "Rodzaj czcionki"
+      },
+      "poprawna": "B",
+      "poziom": 11
+    },
+    {
+      "pytanie": "Co to jest 'rekurencja' w programowaniu?",
+      "opcje": {
+        "A": "Funkcja wywołująca samą siebie",
+        "B": "Pętla nieskończona",
+        "C": "Błąd przepełnienia pamięci",
+        "D": "Metoda optymalizacji kodu"
+      },
+      "poprawna": "A",
+      "poziom": 11
+    },
+    {
+      "pytanie": "Jaki jest główny cel 'git'?",
+      "opcje": {
+        "A": "Zarządzanie bazami danych",
+        "B": "System kontroli wersji",
+        "C": "Kompilacja kodu",
+        "D": "Projektowanie interfejsów"
+      },
+      "poprawna": "B",
+      "poziom": 11
+    },
+    {
+      "pytanie": "Jak nazywamy atak polegający na wstrzyknięciu kodu SQL?",
+      "opcje": {
+        "A": "XSS",
+        "B": "SQL Injection",
+        "C": "DDoS",
+        "D": "Phishing"
+      },
+      "poprawna": "B",
+      "poziom": 11
+    },
+    {
+      "pytanie": "Co to jest 'Pamięć podręczna' (Cache)?",
+      "opcje": {
+        "A": "Bardzo szybka pamięć przy procesorze",
+        "B": "Dysk twardy",
+        "C": "Karta sieciowa",
+        "D": "Pamięć RAM"
+      },
+      "poprawna": "A",
+      "poziom": 11
+    }
+  ],
+  "poziom_12": [
+    {
+      "pytanie": "Czym jest 'bramka logiczna NAND'?",
+      "opcje": {
+        "A": "Uniwersalna bramka logiczna",
+        "B": "Bramka typu OR",
+        "C": "Bramka typu NOT",
+        "D": "Bramka typu XOR"
+      },
+      "poprawna": "A",
+      "poziom": 12
+    },
+    {
+      "pytanie": "Co to jest 'P vs NP'?",
+      "opcje": {
+        "A": "Problem z teorii złożoności obliczeniowej",
+        "B": "Nazwa typu procesora",
+        "C": "Protokół komunikacyjny",
+        "D": "Błąd w kompilatorze"
+      },
+      "poprawna": "A",
+      "poziom": 12
+    },
+    {
+      "pytanie": "Jaki język jest znany z najmniejszego narzutu (overhead)?",
+      "opcje": {
+        "A": "Java",
+        "B": "Python",
+        "C": "C",
+        "D": "JavaScript"
+      },
+      "poprawna": "C",
+      "poziom": 12
+    },
+    {
+      "pytanie": "Jak nazywamy zbiór zasad formatowania znaków w pamięci?",
+      "opcje": {
+        "A": "Kodowanie",
+        "B": "Szyfrowanie",
+        "C": "Kompresja",
+        "D": "Haszowanie"
+      },
+      "poprawna": "A",
+      "poziom": 12
+    },
+    {
+      "pytanie": "Co to jest 'Turing complete'?",
+      "opcje": {
+        "A": "System, który może rozwiązać każdy obliczalny problem",
+        "B": "Najszybszy procesor na świecie",
+        "C": "Nazwa błędu w systemie",
+        "D": "Typ sieci komputerowej"
+      },
+      "poprawna": "A",
+      "poziom": 12
+    }
+  ]
+}
