@@ -1,5 +1,7 @@
 from core.config import REWARDS
 from core.functions import clear_screen, pull_question
+import time
+import random
 
 # Welcome the user
 clear_screen()
@@ -55,3 +57,9 @@ while poziom <= 12:
         else:
             print("Musisz odpowiedzieć literką (A/B/C/D)!")
             input()
+
+random_offset = random.uniform(-0.5, 0.5)
+time.sleep(2 + random_offset)
+
+print("Gratulacje! Odpowiedziałeś poprawnie na wszystkie 12 pytań.")
+print("Natomiast ze względu na budżet projektu, nie jesteśmy w stanie wypłacić 1000000zł.")
