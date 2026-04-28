@@ -1,2 +1,3 @@
-# gra-milionerzy
-Gra milionerzy na projekt do szkoły
+# Milionerzy
+
+Ta gra jest inspirowana grą "Milionerzy" i jest tworzona na konkurs szkolny.
