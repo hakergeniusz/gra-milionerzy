@@ -10,7 +10,7 @@ print("Witaj w grze Milionerzy!")
 print("Celem tej gry jest odpowiedzenie na 12 pytań. ")
 print("Z każdym pytaniem zwiększa się pula nagród!")
 print(
-    "0 zł → 500 zł → 1000 zł → 2000 zł → 5000 zł → 10000 zł → 20000 zł → 40000 zł → 75000 zł → 125000 zł → 250000 zł → 500000 zł → 1000000 zł"
+    "0 zł → 1000 zł → 2000 zł → 5000 zł → 10000 zł → 15000 zł → 25000 zł → 50000 zł → 75000 zł → 125000 zł → 250000 zł → 500000 zł → 1000000 zł"
 )
 print("Natomiast jeśli się pomylisz, przegrywasz wszystko.")
 print(
