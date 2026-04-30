@@ -2,15 +2,16 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
+# G - Guaranteed
 REWARDS = {
     0: "0 zł",
     1: "1000 zł",
-    2: "2000 zł",
+    2: "2000 zł", # G
     3: "5000 zł",
     4: "10000 zł",
     5: "15000 zł",
     6: "25000 zł",
-    7: "50000 zł",
+    7: "50000 zł", # G
     8: "75000 zł",
     9: "125000 zł",
     10: "250000 zł",

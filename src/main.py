@@ -2,7 +2,7 @@ import random
 import time
 
 from core.config import REWARDS
-from core.functions import clear_screen, pull_question
+from core.functions import clear_screen, give_guaranteed_money, pull_question
 
 # Welcome the user
 clear_screen()
@@ -10,9 +10,11 @@ print("Witaj w grze Milionerzy!")
 print("Celem tej gry jest odpowiedzenie na 12 pytań. ")
 print("Z każdym pytaniem zwiększa się pula nagród!")
 print(
-    "0 zł → 1000 zł → 2000 zł → 5000 zł → 10000 zł → 15000 zł → 25000 zł → 50000 zł → 75000 zł → 125000 zł → 250000 zł → 500000 zł → 1000000 zł"
+    "0 zł → 1000 zł → 2000 zł (G) → 5000 zł → 10000 zł → 15000 zł → 25000 zł → 50000 zł (G) → 75000 zł → 125000 zł → 250000 zł → 500000 zł → 1000000 zł"
 )
-print("Natomiast jeśli się pomylisz, przegrywasz wszystko.")
+print(
+    "Natomiast jeśli się pomylisz, otrzymujesz pieniądze z progu gwarantowanego (G), do którego doszedłeś."
+)
 print(
     "W dowolnym momencie możesz napisać `zakończ` i aktualna suma pieniędzy zostanie wypłacona."
 )
@@ -59,6 +61,13 @@ while poziom <= 12:
             print(
                 f"Niestety, zła odpowiedź. Poprawną odpowiedzią było {correct_answer}."
             )
+            if poziom > 2:
+                guaranteed_reward = give_guaranteed_money(poziom - 1)
+                print(f"Doszedłeś do progu gwarantowanego, więc odchodzisz z {guaranteed_reward}!")
+            else:
+                print(
+                    "Nie doszedłeś jeszcze do progu gwarantowanego, więc dostajesz nic."
+                )
             input()
             exit()
         else:
