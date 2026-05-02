@@ -63,7 +63,9 @@ while poziom <= 12:
             )
             if poziom > 2:
                 guaranteed_reward = give_guaranteed_money(poziom - 1)
-                print(f"Doszedłeś do progu gwarantowanego, więc odchodzisz z {guaranteed_reward}!")
+                print(
+                    f"Doszedłeś do progu gwarantowanego, więc odchodzisz z {guaranteed_reward}!"
+                )
             else:
                 print(
                     "Nie doszedłeś jeszcze do progu gwarantowanego, więc dostajesz nic."
