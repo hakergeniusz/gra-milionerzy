@@ -50,13 +50,14 @@ def clear_screen() -> None:
     """
     os.system("cls" if os.name == "nt" else "clear")
 
+
 def give_guaranteed_money(level: int) -> str:
     """
     Returns the guaranteed amount of money in the game.
-    
+
     Args:
         level (int): Current level of the game
-    
+
     Returns:
         str: A string with the guaranteed amount of money for the level.
     """
@@ -67,19 +68,20 @@ def give_guaranteed_money(level: int) -> str:
     else:
         return "0 zł"
 
+
 def remove_two_incorrect_answers(options: dict, correct: str) -> dict:
     """
     Removes two incorrect answers from `options`.
-    
+
     Args:
         options (dict): All answers in a dict.
         correct (str): Letter of the correct answer.
-        
-    Returns: 
+
+    Returns:
         dict: correct answer and random incorrect answer.
     """
     wrong_keys = [k for k in options if k != correct]
     chosen_wrong = random.choice(wrong_keys)
-    
+
     filtered = {k: options[k] for k in options if k in {correct, chosen_wrong}}
     return filtered
