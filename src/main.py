@@ -2,7 +2,7 @@ import random
 import time
 
 from core.config import REWARDS
-from core.functions import clear_screen, give_guaranteed_money, pull_question
+from core.functions import clear_screen, give_guaranteed_money, pull_question, remove_two_incorrect_answers
 
 # Welcome the user
 clear_screen()
@@ -15,14 +15,15 @@ print(
 print(
     "Natomiast jeśli się pomylisz, otrzymujesz pieniądze z progu gwarantowanego (G), do którego doszedłeś."
 )
+print("Możesz w dowolnym momencie napisać `koło ratunkowe` i skorzystać z koła ratunkowego, które usuwa dwie błędne odpowiedzi,")
 print(
-    "W dowolnym momencie możesz napisać `zakończ` i aktualna suma pieniędzy zostanie wypłacona."
+    "ale ta funkcja jest limitowana dwa razy na grę. Również, możesz napisać `zakończ` i aktualna suma pieniędzy zostanie wypłacona."
 )
 print("Zaczynamy!")
 input()
 
 poziom = 1
-
+left_lifeline_uses = 2
 # The game loop
 while poziom <= 12:
     clear_screen()
@@ -34,6 +35,8 @@ while poziom <= 12:
         print(f"Pytanie nr {poziom}")
         print(f"Grasz o {REWARDS[poziom]}!")
         print(f"Pytanie: {question_data['pytanie']}")
+        if len(question_data["opcje"]) == 2:
+            print(f"Pozostało użyć koła ratunkowego: {left_lifeline_uses}")
         for klucz, tresc in question_data["opcje"].items():
             print(f"{klucz}: {tresc}")
 
@@ -57,6 +60,9 @@ while poziom <= 12:
             )
             print(f"Poprawną odpowiedzią było {correct_answer}.")
             exit()
+        elif user_answer == "koło ratunkowe" and left_lifeline_uses > 0 and len(question_data['opcje']) == 4:
+            left_lifeline_uses -= 1
+            question_data['opcje'] = remove_two_incorrect_answers(question_data['opcje'], question_data['poprawna'])
         elif user_answer_upper in ("A", "B", "C", "D"):
             print(
                 f"Niestety, zła odpowiedź. Poprawną odpowiedzią było {correct_answer}."
@@ -72,6 +78,12 @@ while poziom <= 12:
                 )
             input()
             exit()
+        elif user_answer == "koło ratunkowe" and len(question_data['opcje']) == 2:
+            print("Użyłeś już koła ratunkowego na to pytanie!")
+            input()
+        elif user_answer == "koło ratunkowe" and left_lifeline_uses == 0:
+            print("Nie masz już użyć koła ratunkowego!")
+            input()
         else:
             print("Musisz odpowiedzieć literką (A/B/C/D)!")
             input()
